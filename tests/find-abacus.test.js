@@ -37,7 +37,7 @@ it('3 objects, should return 2', () => {
     .toStrictEqual(2);
 });
 
-it('2 objects, should return undefined', () => {
+it('2 objects, should return null', () => {
   const obj0 = {
     'year': 2004,
     'value': 'key',
@@ -47,12 +47,12 @@ it('2 objects, should return undefined', () => {
     'age': 'yes',
   };
   expect(findAbacus([obj0, obj1]))
-    .toStrictEqual(undefined);
+    .toStrictEqual(null);
 });
 
-it('0 objects, should return undefined', () => {
+it('0 objects, should return null', () => {
   expect(findAbacus([]))
-    .toStrictEqual(undefined);
+    .toStrictEqual(null);
 });
 
 it('2 objects, one has Abacus false, should return 1', () => {
