@@ -15,9 +15,9 @@ test('number is 10 and none of the numbers are divisible by 10', () => {
     .toStrictEqual([]);
 });
 
-test('number is 0 and it should return undefined', () => {
+test('number is 0 and it should return null', () => {
   expect(filterDivisible([0, 4, 6, 9, 12], 0))
-    .toStrictEqual(undefined);
+    .toStrictEqual(null);
 });
 
 test('number is 2 and the array is empty', () => {
