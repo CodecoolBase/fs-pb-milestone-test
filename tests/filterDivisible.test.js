@@ -1,4 +1,4 @@
-const filterDivisible = require('../solutions/filter-divisible');
+const filterDivisible = require('../solutions/filterDivisible');
 
 test('number is 3 and all numbers are divisible by 3', () => {
   expect(filterDivisible([3, 6, 9, 12], 3))

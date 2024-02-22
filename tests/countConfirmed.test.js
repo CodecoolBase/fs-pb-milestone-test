@@ -1,4 +1,4 @@
-const countConfirmed = require('../solutions/count-confirmed');
+const countConfirmed = require('../solutions/countConfirmed');
 
 const user1 = {
   id: 3242342,

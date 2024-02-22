@@ -1,4 +1,4 @@
-const averageAgeOfAdults = require('../solutions/adults-average-age');
+const averageAgeOfAdults = require('../solutions/averageAgeOfAdults');
 
 const user1 = {
   id: 3242342,
