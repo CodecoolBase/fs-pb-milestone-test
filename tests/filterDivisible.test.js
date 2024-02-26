@@ -1,4 +1,4 @@
-const filterDivisible = require('../solutions/filter-divisible');
+const filterDivisible = require('../solutions/filterDivisible');
 
 test('number is 3 and all numbers are divisible by 3', () => {
   expect(filterDivisible([3, 6, 9, 12], 3))
@@ -15,9 +15,9 @@ test('number is 10 and none of the numbers are divisible by 10', () => {
     .toStrictEqual([]);
 });
 
-test('number is 0 and it should return undefined', () => {
+test('number is 0 and it should return null', () => {
   expect(filterDivisible([0, 4, 6, 9, 12], 0))
-    .toStrictEqual(undefined);
+    .toStrictEqual(null);
 });
 
 test('number is 2 and the array is empty', () => {

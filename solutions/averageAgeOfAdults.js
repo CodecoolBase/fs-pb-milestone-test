@@ -12,8 +12,8 @@ A user object in the received array will look like this:
 Calculate the average age of those users who are adults (above or equal 18). Return the result (as a number).
 */
 
-function adultsAverageAge(users) {
+function averageAgeOfAdults(users) {
 
 }
 
-module.exports = adultsAverageAge;
+module.exports = averageAgeOfAdults;

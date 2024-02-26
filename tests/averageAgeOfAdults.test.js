@@ -1,4 +1,4 @@
-const adultsAverageAge = require('../solutions/adults-average-age');
+const averageAgeOfAdults = require('../solutions/averageAgeOfAdults');
 
 const user1 = {
   id: 3242342,
@@ -31,36 +31,36 @@ const user5 = {
 };
 
 test('Test 1', () => {
-  expect(adultsAverageAge([user1, user2, user3, user4, user5]))
+  expect(averageAgeOfAdults([user1, user2, user3, user4, user5]))
     .toStrictEqual(22.5);
 });
 
 test('Test 2', () => {
-  expect(adultsAverageAge([user1, user2, user3, user4]))
+  expect(averageAgeOfAdults([user1, user2, user3, user4]))
     .toStrictEqual(22.5);
 });
 
 test('Test 3', () => {
-  expect(adultsAverageAge([user1, user2, user3]))
+  expect(averageAgeOfAdults([user1, user2, user3]))
     .toStrictEqual(22);
 });
 
 test('Test 4', () => {
-  expect(adultsAverageAge([user1, user2]))
+  expect(averageAgeOfAdults([user1, user2]))
     .toStrictEqual(24);
 });
 
 test('Test 5', () => {
-  expect(adultsAverageAge([user2, user3, user4, user5]))
+  expect(averageAgeOfAdults([user2, user3, user4, user5]))
     .toStrictEqual(24);
 });
 
 test('Test 6', () => {
-  expect(adultsAverageAge([user3, user4, user5]))
+  expect(averageAgeOfAdults([user3, user4, user5]))
     .toStrictEqual(21);
 });
 
 test('Test 7', () => {
-  expect(adultsAverageAge([user4, user5]))
+  expect(averageAgeOfAdults([user4, user5]))
     .toStrictEqual(24);
 });
