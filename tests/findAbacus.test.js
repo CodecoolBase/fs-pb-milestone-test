@@ -1,4 +1,4 @@
-const findAbacus = require('../solutions/find-abacus');
+const findAbacus = require('../solutions/findAbacus');
 
 it('3 objects, should return 1', () => {
   const obj0 = {
