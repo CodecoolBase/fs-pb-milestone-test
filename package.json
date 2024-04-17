@@ -1,6 +1,6 @@
 {
   "name": "milestone",
-  "type": "module",
+  "type": "commonjs",
   "version": "1.0.0",
   "description": "milestone test for 2 TW weekers",
   "main": "filter-divisible.js",

@@ -12,6 +12,7 @@ The wrong object may contain the key abacus but with false value! There may only
 */
 
 function findAbacus(array) {
+
 }
 
 module.exports = findAbacus;
